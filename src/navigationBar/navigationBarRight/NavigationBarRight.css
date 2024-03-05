@@ -1,0 +1,4 @@
+.navigation-bar-right {
+    display: flex;
+    flex-direction: row;
+}
