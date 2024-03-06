@@ -1,8 +1,10 @@
 .navigation-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
     padding: 15px 25px;
     position: relative;
     z-index: 1;
 }
+

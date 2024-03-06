@@ -1,8 +1,86 @@
 .navigation-bar-center {
+    margin-right: auto;
+    margin-left: 8vw;
+    position: relative;
+}
+
+.navigation-bar-center-extended {
     display: flex;
     flex-direction: row;
 }
 
-.navigation-bar-center > div {
-    margin-right: 15px;
+.navigation-bar-center-extended  > div {
+    margin-right: 1.5vw;
+    font-size: clamp(20px, 1.35vw, 5em);
+    transition: font-weight 0.2s ease;
+}
+
+.navigation-bar-center-extended > div > a {
+    color: #333;
+}
+
+.navigation-bar-center-extended > div:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: black;
+}
+
+.navigation-bar-center-extend-button {
+    display: none;
+    transition: transform 0.5s;
+}
+
+.navigation-bar-center-extend-button:hover {
+    cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(90deg);
+    color: white;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -25%;
+    left: -50%;
+    padding: 5px 15px 5px 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    font-size: clamp(20px, 1.2vw, 3em);
+    font-family: Montserrat, sans-serif;
+}
+.submenu > div {
+    padding-bottom: 5px;
+}
+
+.submenu > div > a {
+    color: #ddd;
+}
+
+.submenu > div:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: white;
+}
+
+@media screen and (max-width: 1250px) {
+    .navigation-bar-center {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navigation-bar-center {
+        margin-left: 4vw;
+    }
+
+    .navigation-bar-center-extended {
+        display: none;
+    }
+
+    .navigation-bar-center-extend-button {
+        display: block;
+    }
 }

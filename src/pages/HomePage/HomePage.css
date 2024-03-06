@@ -1,0 +1,41 @@
+.home-page {
+    position: relative;
+    font-family: Montserrat, sans-serif;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home-page > div {
+    position: absolute;
+    left: calc(53% - clamp(100px, 10vw, 15em));
+    top: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trix-name-middle {
+    font-family: "Anton", sans-serif;
+    font-size: clamp(100px, 10vw, 10em);
+    text-shadow: #962d2f 0 0.8vw;
+}
+
+.registration-button {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5vw;
+    width: 50%;
+    padding: 15px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #9b3d3f;
+    color: yellow;
+    text-shadow: #641719 0 5px;
+}
