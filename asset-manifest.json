@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TRIX24/static/css/main.b0af4dbc.css",
-    "main.js": "/TRIX24/static/js/main.bc0603cf.js",
+    "main.css": "/TRIX24/static/css/main.f76febc1.css",
+    "main.js": "/TRIX24/static/js/main.b3d56c76.js",
     "static/js/453.3e4e0cc8.chunk.js": "/TRIX24/static/js/453.3e4e0cc8.chunk.js",
     "static/media/home-page.png": "/TRIX24/static/media/home-page.f78dd97e088325b516b0.png",
     "index.html": "/TRIX24/index.html",
-    "main.b0af4dbc.css.map": "/TRIX24/static/css/main.b0af4dbc.css.map",
-    "main.bc0603cf.js.map": "/TRIX24/static/js/main.bc0603cf.js.map",
+    "main.f76febc1.css.map": "/TRIX24/static/css/main.f76febc1.css.map",
+    "main.b3d56c76.js.map": "/TRIX24/static/js/main.b3d56c76.js.map",
     "453.3e4e0cc8.chunk.js.map": "/TRIX24/static/js/453.3e4e0cc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0af4dbc.css",
-    "static/js/main.bc0603cf.js"
+    "static/css/main.f76febc1.css",
+    "static/js/main.b3d56c76.js"
   ]
 }
