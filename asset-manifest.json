@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/TRIX24/static/css/main.41310b4b.css",
-    "main.js": "/TRIX24/static/js/main.a2ba7319.js",
+    "main.css": "/TRIX24/static/css/main.9b72c505.css",
+    "main.js": "/TRIX24/static/js/main.7673e41c.js",
     "static/js/453.3e4e0cc8.chunk.js": "/TRIX24/static/js/453.3e4e0cc8.chunk.js",
+    "static/media/Ioana_Oltean.svg": "/TRIX24/static/media/Ioana_Oltean.68c70bcbb4d434ab67471673aaa62afc.svg",
     "static/media/home-page.png": "/TRIX24/static/media/home-page.f78dd97e088325b516b0.png",
+    "static/media/Nicolae_Mogage.svg": "/TRIX24/static/media/Nicolae_Mogage.ba486c6ef374c1a17531fb15cdeeccaf.svg",
+    "static/media/Kira_Moglan.svg": "/TRIX24/static/media/Kira_Moglan.be7f03cb10104738af1f9ec87fd1617f.svg",
+    "static/media/Mika_Alexandru.svg": "/TRIX24/static/media/Mika_Alexandru.637b643e23c5a2bc3d45838da5d46580.svg",
+    "static/media/Ada_Popescu.svg": "/TRIX24/static/media/Ada_Popescu.d1c74f4e60cdc789bfedf582b5cea0be.svg",
+    "static/media/Catalina_Rusu.svg": "/TRIX24/static/media/Catalina_Rusu.203ed671d6e9f42791ff29d56f0cf00f.svg",
+    "static/media/Nicoleta_Somlea.svg": "/TRIX24/static/media/Nicoleta_Somlea.cdaeb92255e8477c4b448e9a6e09ba89.svg",
+    "static/media/Ana_Ciosu.svg": "/TRIX24/static/media/Ana_Ciosu.fa090f427cb9d847580dba3843dca93d.svg",
+    "static/media/Ovi_Hudusan.svg": "/TRIX24/static/media/Ovi_Hudusan.e13d630f19ac01874f791d01d1c71365.svg",
     "static/media/dragon_loading.gif": "/TRIX24/static/media/dragon_loading.90e589cc83a24de0fc33.gif",
+    "static/media/Ionela_Comsa.svg": "/TRIX24/static/media/Ionela_Comsa.4b579aecaf280d98f5c162771fe6199c.svg",
+    "static/media/Background.svg": "/TRIX24/static/media/Background.d4e6b7eeedc964467bf0b55c3ff85d58.svg",
     "index.html": "/TRIX24/index.html",
-    "main.41310b4b.css.map": "/TRIX24/static/css/main.41310b4b.css.map",
-    "main.a2ba7319.js.map": "/TRIX24/static/js/main.a2ba7319.js.map",
+    "main.9b72c505.css.map": "/TRIX24/static/css/main.9b72c505.css.map",
+    "main.7673e41c.js.map": "/TRIX24/static/js/main.7673e41c.js.map",
     "453.3e4e0cc8.chunk.js.map": "/TRIX24/static/js/453.3e4e0cc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41310b4b.css",
-    "static/js/main.a2ba7319.js"
+    "static/css/main.9b72c505.css",
+    "static/js/main.7673e41c.js"
   ]
 }
