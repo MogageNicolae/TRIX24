@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TRIX24/static/css/main.f238aea2.css",
-    "main.js": "/TRIX24/static/js/main.925769e7.js",
+    "main.js": "/TRIX24/static/js/main.db1070d8.js",
     "static/js/453.3e4e0cc8.chunk.js": "/TRIX24/static/js/453.3e4e0cc8.chunk.js",
     "static/media/dragon_loading.gif": "/TRIX24/static/media/dragon_loading.90e589cc83a24de0fc33.gif",
     "static/media/14.webp": "/TRIX24/static/media/14.2634d77d58984fdb44d2.webp",
@@ -23,7 +23,7 @@
     "static/media/11.webp": "/TRIX24/static/media/11.dfd46dedfc989608b387.webp",
     "static/media/Andrei_Neamtu.webp": "/TRIX24/static/media/Andrei_Neamtu.8212ec8aa63ca7041c46.webp",
     "static/media/2.webp": "/TRIX24/static/media/2.85cd79c6f46ba8248902.webp",
-    "static/media/1.webp": "/TRIX24/static/media/1.b73be943cea5008f8c97.webp",
+    "static/media/page1.webp": "/TRIX24/static/media/page1.b73be943cea5008f8c97.webp",
     "static/media/Ioana_Oltean.webp": "/TRIX24/static/media/Ioana_Oltean.ba913c71fb8a6f71ae69.webp",
     "static/media/Nicolae_Mogage.webp": "/TRIX24/static/media/Nicolae_Mogage.ded0fcc56fd55648260a.webp",
     "static/media/Ada_Popescu.webp": "/TRIX24/static/media/Ada_Popescu.757e7084e70368bd690b.webp",
@@ -40,11 +40,11 @@
     "static/media/Background.webp": "/TRIX24/static/media/Background.86ea89e317ca22c75341.webp",
     "index.html": "/TRIX24/index.html",
     "main.f238aea2.css.map": "/TRIX24/static/css/main.f238aea2.css.map",
-    "main.925769e7.js.map": "/TRIX24/static/js/main.925769e7.js.map",
+    "main.db1070d8.js.map": "/TRIX24/static/js/main.db1070d8.js.map",
     "453.3e4e0cc8.chunk.js.map": "/TRIX24/static/js/453.3e4e0cc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f238aea2.css",
-    "static/js/main.925769e7.js"
+    "static/js/main.db1070d8.js"
   ]
 }
