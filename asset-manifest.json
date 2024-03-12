@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TRIX24/static/css/main.500e2e0c.css",
-    "main.js": "/TRIX24/static/js/main.e5e2eb32.js",
+    "main.js": "/TRIX24/static/js/main.528ad771.js",
     "static/js/453.3e4e0cc8.chunk.js": "/TRIX24/static/js/453.3e4e0cc8.chunk.js",
     "static/media/4.png": "/TRIX24/static/media/4.94a5e406c51f6df0fcb1.png",
     "static/media/dragon_loading.gif": "/TRIX24/static/media/dragon_loading.90e589cc83a24de0fc33.gif",
@@ -14,6 +14,7 @@
     "static/media/Ioana_Oltean.webp": "/TRIX24/static/media/Ioana_Oltean.ba913c71fb8a6f71ae69.webp",
     "static/media/Nicolae_Mogage.webp": "/TRIX24/static/media/Nicolae_Mogage.ded0fcc56fd55648260a.webp",
     "static/media/Ada_Popescu.webp": "/TRIX24/static/media/Ada_Popescu.757e7084e70368bd690b.webp",
+    "static/media/Diana_Farcas.webp": "/TRIX24/static/media/Diana_Farcas.b0a197d315500ad451e4.webp",
     "static/media/Kira_Moglan.webp": "/TRIX24/static/media/Kira_Moglan.7026aac946c669528b57.webp",
     "static/media/Ionela_Comsa.webp": "/TRIX24/static/media/Ionela_Comsa.465c45f21c3330982940.webp",
     "static/media/Mika_Alexandru.webp": "/TRIX24/static/media/Mika_Alexandru.f3ac1d844192d4573699.webp",
@@ -23,11 +24,11 @@
     "static/media/Background.webp": "/TRIX24/static/media/Background.86ea89e317ca22c75341.webp",
     "index.html": "/TRIX24/index.html",
     "main.500e2e0c.css.map": "/TRIX24/static/css/main.500e2e0c.css.map",
-    "main.e5e2eb32.js.map": "/TRIX24/static/js/main.e5e2eb32.js.map",
+    "main.528ad771.js.map": "/TRIX24/static/js/main.528ad771.js.map",
     "453.3e4e0cc8.chunk.js.map": "/TRIX24/static/js/453.3e4e0cc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.500e2e0c.css",
-    "static/js/main.e5e2eb32.js"
+    "static/js/main.528ad771.js"
   ]
 }
