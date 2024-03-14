@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TRIX24/static/css/main.257f4bc6.css",
-    "main.js": "/TRIX24/static/js/main.eb4888a5.js",
+    "main.css": "/TRIX24/static/css/main.f40a9389.css",
+    "main.js": "/TRIX24/static/js/main.a6a3be72.js",
     "static/js/453.3e4e0cc8.chunk.js": "/TRIX24/static/js/453.3e4e0cc8.chunk.js",
     "static/media/dragon_loading.gif": "/TRIX24/static/media/dragon_loading.90e589cc83a24de0fc33.gif",
     "static/media/Eli_Potcoava.webp": "/TRIX24/static/media/Eli_Potcoava.26fc7f1d05a62c65aed4.webp",
@@ -40,12 +40,12 @@
     "static/media/Nicoleta_Somlea.webp": "/TRIX24/static/media/Nicoleta_Somlea.81e4541d9f46e804858c.webp",
     "static/media/Background.webp": "/TRIX24/static/media/Background.86ea89e317ca22c75341.webp",
     "index.html": "/TRIX24/index.html",
-    "main.257f4bc6.css.map": "/TRIX24/static/css/main.257f4bc6.css.map",
-    "main.eb4888a5.js.map": "/TRIX24/static/js/main.eb4888a5.js.map",
+    "main.f40a9389.css.map": "/TRIX24/static/css/main.f40a9389.css.map",
+    "main.a6a3be72.js.map": "/TRIX24/static/js/main.a6a3be72.js.map",
     "453.3e4e0cc8.chunk.js.map": "/TRIX24/static/js/453.3e4e0cc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.257f4bc6.css",
-    "static/js/main.eb4888a5.js"
+    "static/css/main.f40a9389.css",
+    "static/js/main.a6a3be72.js"
   ]
 }
