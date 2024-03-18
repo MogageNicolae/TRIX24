@@ -1,6 +1,5 @@
 .home-page {
     position: relative;
-    font-family: Montserrat, sans-serif;
 }
 
 .background-image {
@@ -13,29 +12,123 @@
     z-index: -1;
 }
 
-.home-page > div {
-    position: absolute;
-    left: calc(53% - clamp(100px, 10vw, 15em));
-    top: 35vh;
+.page-center{
+    margin: 22vh auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.trix-name-middle {
+.name-middle {
     font-family: "Anton", sans-serif;
-    font-size: clamp(100px, 10vw, 10em);
     text-shadow: #962d2f 0 0.8vw;
 }
 
-.registration-button {
+.name-middle-trix {
+    font-size: clamp(100px, 10vw, 10em);
+}
+
+.hp-buttons {
+    margin-top: 2.5vh;
+}
+
+.hp-button {
     font-family: Montserrat, sans-serif;
-    font-size: 1.5vw;
-    width: 50%;
+    font-size: clamp(25px, 1.2vw, 3em);
+    font-weight: bolder;
+    width: 10%;
     padding: 15px;
     border: 2px solid black;
     text-align: center;
-    background-color: #9b3d3f;
-    color: yellow;
-    text-shadow: #641719 0 5px;
+    background-image: linear-gradient(180deg, #f37278, #641719);
+    color: #fbf187;
+    text-shadow: #641719 0 0.4vh;
+    border-radius: 25px;
+}
+
+.hp-button:hover {
+    background-image: linear-gradient(180deg,  #fbf187, #c5c514);
+    color: #9b3d3f;
+    text-shadow: #bbbb2c 0 0.25vh;
+}
+
+.hp-button:first-child {
+    margin-right: 15px;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.time-until-conference-container {
+    margin: 0 auto 0 auto;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    top: 100vh;
+    width: 100%;
+    background-image: url("../../assets/gif/dragon_loading.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    color: #fcdc58;
+    text-shadow: black 0.3vw 0.4vw;
+}
+
+.countdown {
+    font-size: clamp(40px, 5vw, 10em);
+    font-weight: bolder;
+}
+
+.time-until-conference {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15vh;
+}
+
+.time-until-conference > div {
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(20px, 3vw, 10em);
+    font-family: "Anton", sans-serif;
+    padding-right: 12vw;
+}
+
+.time-until-conference > div > div {
+    padding-bottom: 2vh;
+}
+
+.time-until-conference > div:last-child {
+    padding-right: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .hp-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hp-buttons > a {
+        width: 80%;
+    }
+
+    .hp-buttons > a:first-child {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .time-until-conference-container {
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+    }
+
+    .time-until-conference > div {
+        padding-right: 7vw;
+    }
 }

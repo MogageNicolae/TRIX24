@@ -1,0 +1,24 @@
+.close-submenu-button {
+    color: #ddd;
+    display: flex;
+    justify-content: right;
+    font-weight: bolder;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 160px;
+    cursor: pointer;
+}
+
+.close-submenu-button:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.submenu .active {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: white;
+}
+

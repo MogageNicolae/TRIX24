@@ -1,0 +1,21 @@
+.person-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: clamp(25px, 1.5vw, 10em);
+    font-weight: 700;
+    transition: all 1s;
+}
+
+.name {
+    margin-bottom: 1rem;
+}
+
+.is-detail-active {
+    display: flex;
+    flex-direction: column;
+}
+
+.is-detail-not-active {
+    display: none;
+}

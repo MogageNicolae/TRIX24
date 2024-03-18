@@ -1,5 +1,5 @@
+import ComingSoon from "../ComingSoon/ComingSoon";
+
 export default function Partners() {
-    return (
-        <div></div>
-    )
+    return <ComingSoon  active_page="partners"/>
 }

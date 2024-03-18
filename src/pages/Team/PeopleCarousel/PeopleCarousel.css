@@ -1,0 +1,68 @@
+.team-image-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-background-image {
+    display: block;
+    z-index: 0;
+    margin: 5vh auto 0 auto;
+    transition: all 1s;
+}
+
+.team-detail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    transition: all 1s;
+}
+
+.arrow {
+    font-size: clamp(40px, 3vw, 10em);
+    font-weight: 700;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 12vh 1vw;
+    z-index: 1;
+    transition: all 0.5s;
+    margin-top: 13vh;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.3 );
+    cursor: pointer;
+}
+
+.left-arrow {
+    margin-left: 15vw;
+}
+
+.right-arrow {
+    margin-left: 80vw;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .arrow {
+        padding: 10vw 1vw;
+        margin-top: 15vh;
+    }
+
+    .left-arrow {
+        margin-left: 5vw;
+    }
+
+    .right-arrow {
+        margin-left: 83vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .team-background-image {
+        max-width: 90vh;
+    }
+}

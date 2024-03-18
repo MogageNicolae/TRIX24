@@ -10,6 +10,8 @@ import History from "./pages/History/History";
 import Partners from "./pages/Partners/Partners";
 
 function App() {
+
+
   return (
       <Routes>
           <Route path="/" element={<HomePage />} />

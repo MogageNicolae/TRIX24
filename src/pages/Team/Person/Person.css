@@ -1,0 +1,28 @@
+.person-image-container {
+    position: absolute;
+    bottom: 1.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+}
+
+.person-image {
+    width: 350px;
+    max-width: 75vw;
+    border-radius: 55%;
+}
+
+.is-photo-not-active {
+    filter: grayscale(100%);
+}
+
+.is-photo-active {
+    transform: translateX(0);
+}
+
+@media screen and (max-width: 700px) {
+    .person-image {
+        width: 250px;
+    }
+}
