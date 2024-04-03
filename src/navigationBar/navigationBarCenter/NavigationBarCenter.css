@@ -15,19 +15,23 @@
 }
 
 .navigation-bar-center-extended > div > a {
-    color: #333;
+    color: #ddd;
+}
+
+.navigation-bar-center-extended > div > a:hover {
+    color: white;
 }
 
 .navigation-bar-center-extended > div:hover {
     font-weight: bolder;
     text-decoration: underline;
-    color: black;
+    color: white;
 }
 
 .navigation-bar-center-extended .active {
     font-weight: bolder;
     text-decoration: underline;
-    color: black;
+    color: white;
 }
 
 .navigation-bar-center-extend-button {

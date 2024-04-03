@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     font-size: clamp(25px, 1.5vw, 10em);
+    color: #eee;
     font-weight: 700;
     transition: all 1s;
 }

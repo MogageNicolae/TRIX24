@@ -66,7 +66,7 @@ export default function PeopleCarousel({images, toAdd}) {
             <span className="material-symbols-outlined arrow left-arrow" onClick={handleLeftClick}>
                 arrow_back_ios_new
             </span>
-            <span className="material-symbols-outlined arrow right-arrow" onClick={handleRightClick}>
+            <span className="material-symbols-outlined arrow right-arrow" color="white" onClick={handleRightClick}>
                 arrow_forward_ios
             </span>
             <div className="team-image-container">

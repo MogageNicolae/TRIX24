@@ -10,13 +10,13 @@ export default function Submenu({extendMenu, isSubmenuAvailable, active_page}) {
             {/*<div><Link to="/shop">Shop</Link></div>*/}
             {isSubmenuAvailable && <span className="close-submenu-button" onClick={extendMenu}>x</span>}
             <div className={active_page === "registration" ? "active" : ""}><a
-                href=""
+                href="https://9ykk8z2z34n.typeform.com/to/D4CltRfD"
                 target="_blank"
                 rel="noreferrer">
                 Registration
             </a></div>
             <div className={active_page === "shop" ? "active" : ""}><a
-                href=""
+                href="https://9ykk8z2z34n.typeform.com/to/sW4gEY0w"
                 target="_blank"
                 rel="noreferrer">
                 Shop

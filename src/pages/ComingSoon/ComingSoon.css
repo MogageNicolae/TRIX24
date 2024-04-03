@@ -4,4 +4,5 @@
 
 .name-middle-coming-soon {
     font-size: clamp(50px, 10vw, 10em);
+    color: #ddd;
 }

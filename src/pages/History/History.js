@@ -79,7 +79,7 @@ export default function History() {
     return (
         <div className="history-page">
             <NavigationBar  active_page="history"/>
-            <img src={homePageImg} alt="home-page yellow background" className="background-image history-page"/>
+            <img src={homePageImg} alt="home-page yellow background" className="background-image"/>
             <div className="history-book">
                 {bookImages}
                 <span

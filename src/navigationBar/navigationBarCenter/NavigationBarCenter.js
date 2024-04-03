@@ -52,7 +52,7 @@ export default function NavigationBarCenter({active_page}) {
             <div
                 className={"navigation-bar-center-extend-button"}
                 onClick={extendMenu}>
-                <FontAwesomeIcon icon={faBars}/>
+                <FontAwesomeIcon icon={faBars} color="white"/>
             </div>
         </div>
     )

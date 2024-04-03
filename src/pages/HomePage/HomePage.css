@@ -8,13 +8,19 @@
     left: 0;
     width: 100%;
     height: 100vh;
+    min-height: 700px;
     object-fit: cover;
-    z-index: -1;
+    z-index: -5;
+}
+
+.welcome-screen-wrapper {
+    min-height: 100vh;
 }
 
 .page-center{
-    margin: 22vh auto 0 auto;
+    margin: 0 auto 0 auto;
     display: flex;
+    min-height: 500px;
     flex-direction: column;
     align-items: center;
 }
@@ -30,14 +36,18 @@
 
 .hp-buttons {
     margin-top: 2.5vh;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
 }
 
 .hp-button {
+    display: inline-block;
     font-family: Montserrat, sans-serif;
     font-size: clamp(25px, 1.2vw, 3em);
     font-weight: bolder;
-    width: 10%;
     padding: 15px;
+    width: 75%;
     border: 2px solid black;
     text-align: center;
     background-image: linear-gradient(180deg, #f37278, #641719);
@@ -53,7 +63,7 @@
 }
 
 .hp-button:first-child {
-    margin-right: 15px;
+    margin-right: 50px;
 }
 
 .disabled {
@@ -61,11 +71,40 @@
     cursor: default;
 }
 
+.trix-logo {
+    width: 25vw;
+    max-width: 750px;
+    min-width: 250px;
+}
+
+.video-reveal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 0;
+    width: 100%;
+    background-image: url("../../assets/images/video-background.webp");
+    background-repeat: round;
+}
+
+.video-reveal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height:  auto;
+}
+
+iframe {
+    width: 700%;
+    height: 50%;
+    min-height: 700px;
+}
+
 .time-until-conference-container {
     margin: 0 auto 0 auto;
     padding-top: 25vh;
     padding-bottom: 25vh;
-    top: 100vh;
     width: 100%;
     background-image: url("../../assets/gif/dragon_loading.gif");
     background-repeat: no-repeat;
@@ -73,7 +112,6 @@
     background-position: center center;
     display: flex;
     flex-direction: column;
-    position: absolute;
     text-align: center;
     color: #fcdc58;
     text-shadow: black 0.3vw 0.4vw;
@@ -107,7 +145,11 @@
     padding-right: 0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
+    .page-center {
+        margin-top: 15vw;
+    }
+
     .hp-buttons {
         display: flex;
         flex-direction: column;
@@ -115,14 +157,16 @@
     }
 
     .hp-buttons > a {
-        width: 80%;
+        width: 100%;
     }
 
     .hp-buttons > a:first-child {
         margin-right: 0;
         margin-bottom: 15px;
     }
+}
 
+@media screen and (max-width: 750px) {
     .time-until-conference-container {
         padding-top: 15vh;
         padding-bottom: 15vh;
@@ -130,5 +174,9 @@
 
     .time-until-conference > div {
         padding-right: 7vw;
+    }
+
+    iframe {
+        min-height: 315px;
     }
 }

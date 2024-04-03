@@ -1,8 +1,9 @@
 import "./HomePage.css";
 import NavigationBar from "../../navigationBar/NavigationBar";
 import homePageImg from "../../assets/images/home-page.webp";
-import {Link} from "react-router-dom";
+import trixLogo from "../../assets/images/TRIX-logo.webp";
 import {useEffect, useState} from "react";
+
 
 export default function HomePage() {
     const calculateTimeLeft = () => {
@@ -28,51 +29,60 @@ export default function HomePage() {
 
     return (
         <div className="home-page">
-            <NavigationBar active_page="home"/>
-            <div>
+            <div className="welcome-screen-wrapper">
+                <NavigationBar active_page="home"/>
                 <img src={homePageImg} alt="home-page yellow background" className="background-image"/>
                 <div className="page-center">
-                    <div className="name-middle name-middle-trix">TRIX</div>
+                    {/*<div className="name-middle name-middle-trix">TRIX</div>*/}
+                    <img src={trixLogo} alt={"trix logo"} className="trix-logo"/>
                     <div className="hp-buttons">
                         {/*<Link to="/registration" className="registration-button">Register here</Link>*/}
                         {/*<Link to="/shop" className="registration-button">Shop coming soon</Link>*/}
                         <a
-                            href=""
+                            href="https://9ykk8z2z34n.typeform.com/to/D4CltRfD"
                             target="_blank"
                             rel="noreferrer"
-                            className="hp-button disabled">
-                            Registrations open soon
+                            className="hp-button">
+                            Register here
                         </a>
                         <a
-                            href=""
+                            href="https://9ykk8z2z34n.typeform.com/to/sW4gEY0w"
                             target="_blank"
                             rel="noreferrer"
-                            className="hp-button disabled">
-                            Shop coming soon
+                            className="hp-button">
+                            Shop is here
                         </a>
                     </div>
                 </div>
-                <div className="time-until-conference-container">
-                    <div className="countdown">
-                        Countdown
+            </div>
+            <div className="video-reveal-container">
+                <div className="video-reveal">
+                    <iframe src="https://www.youtube.com/embed/laxfmnCcFyc?si=h3k5yeEsPIuRsA-U"
+                            title="YouTube video player" frameBorder="0" allowFullScreen="true"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+            <div className="time-until-conference-container">
+                <div className="countdown">
+                    Countdown
+                </div>
+                <div className="time-until-conference">
+                    <div className="days">
+                        <div>{timeLeft.days < 10 ? '0' + timeLeft.days : timeLeft.days}</div>
+                        <div>Days</div>
                     </div>
-                    <div className="time-until-conference">
-                        <div className="days">
-                            <div>{timeLeft.days < 10 ? '0' + timeLeft.days : timeLeft.days}</div>
-                            <div>Days</div>
-                        </div>
-                        <div className="hours">
-                            <div>{timeLeft.hours < 10 ? '0' + timeLeft.hours : timeLeft.hours}</div>
-                            <div>Hours</div>
-                        </div>
-                        <div className="minutes">
-                            <div>{timeLeft.minutes < 10 ? '0' + timeLeft.minutes : timeLeft.minutes}</div>
-                            <div>Minutes</div>
-                        </div>
-                        <div className="seconds">
-                            <div>{timeLeft.seconds < 10 ? '0' + timeLeft.seconds : timeLeft.seconds}</div>
-                            <div>Seconds</div>
-                        </div>
+                    <div className="hours">
+                        <div>{timeLeft.hours < 10 ? '0' + timeLeft.hours : timeLeft.hours}</div>
+                        <div>Hours</div>
+                    </div>
+                    <div className="minutes">
+                        <div>{timeLeft.minutes < 10 ? '0' + timeLeft.minutes : timeLeft.minutes}</div>
+                        <div>Minutes</div>
+                    </div>
+                    <div className="seconds">
+                        <div>{timeLeft.seconds < 10 ? '0' + timeLeft.seconds : timeLeft.seconds}</div>
+                        <div>Seconds</div>
                     </div>
                 </div>
             </div>

@@ -16,6 +16,7 @@ import andreiNeamtu from "../../assets/images/Andrei_Neamtu.webp";
 import eliPotcoava from "../../assets/images/Eli_Potcoava.webp";
 import paulaNegoias from "../../assets/images/Paula_Negoias.webp";
 import PeopleCarousel from "./PeopleCarousel/PeopleCarousel";
+import homePageImg from "../../assets/images/home-page.webp";
 
 export default function Team() {
     const ebImages = [
@@ -69,38 +70,38 @@ export default function Team() {
         {
             name: "Nicolae Mogage",
             image: nicolaeMogage,
-            position: "OCVP DXP"
+            position: "OC DXP"
         },
         {
             name: "Nicoleta Somlea",
             image: nicoletaSomlea,
-            position: "OCVP DXP"
+            position: "OC DXP"
         },
         {
             name: "Catalina Rusu",
             image: catalinaRusu,
-            position: "OCVP Marketing"
+            position: "OC Marketing"
         },
         {
             name: "Ovidiu Hudusan",
             image: ovidiuHudusan,
-            position: "OCVP Sales"
+            position: "OC Sales"
         },
         {
             name: "Mika Alexandru",
             image: mikaAlexandru,
-            position: "OCVP Sales"
+            position: "OC Sales"
         },
         {
             name: "Ionela Comsa",
             image: ionelaComsa,
-            position: "OCVP F&L"
+            position: "OC F&L"
         }
     ];
 
     return (
         <div className="team-page">
-            <NavigationBar  active_page="team"/>
+            <NavigationBar active_page="team"/>
             <PeopleCarousel images={ebImages} toAdd={7.5}/>
             <PeopleCarousel images={ocImages} toAdd={8.6}/>
         </div>
