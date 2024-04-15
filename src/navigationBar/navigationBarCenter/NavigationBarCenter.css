@@ -34,6 +34,10 @@
     color: white;
 }
 
+.active > a  {
+    color: white!important;
+}
+
 .navigation-bar-center-extend-button {
     display: none;
     transition: transform 0.5s;

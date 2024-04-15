@@ -41,3 +41,9 @@ _
 ,src/pages/Team/PersonDetail/PersonDetail.css,5\6\56365fd2e1ce8d810939244860be013111b00f57
 [
 +src/pages/Team/PersonDetail/PersonDetail.js,5\a\5ab9ecdff7d2332eab6978dfb292dc222c01ab1c
+R
+"src/navigationBar/NavigationBar.js,5\d\5d20aee7344c1c4aa154867cce5c0dea19681a41
+<
+package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+G
+src/pages/Info/Info.css,d\c\dcbc1425a3f0b66b96680148054d4cb8ed5331e1
