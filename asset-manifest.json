@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TRIX24/static/css/main.28b25fb0.css",
+    "main.css": "/TRIX24/static/css/main.97ec7887.css",
     "main.js": "/TRIX24/static/js/main.58a8dc28.js",
     "static/js/453.914ce0b6.chunk.js": "/TRIX24/static/js/453.914ce0b6.chunk.js",
     "static/media/meme1.png": "/TRIX24/static/media/meme1.aa91fa3622e4cd88660f.png",
@@ -102,12 +102,12 @@
     "static/media/Bracelet TRIX.webp": "/TRIX24/static/media/Bracelet TRIX.6c77a2f8fff7c80236a4.webp",
     "static/media/Background.webp": "/TRIX24/static/media/Background.86ea89e317ca22c75341.webp",
     "index.html": "/TRIX24/index.html",
-    "main.28b25fb0.css.map": "/TRIX24/static/css/main.28b25fb0.css.map",
+    "main.97ec7887.css.map": "/TRIX24/static/css/main.97ec7887.css.map",
     "main.58a8dc28.js.map": "/TRIX24/static/js/main.58a8dc28.js.map",
     "453.914ce0b6.chunk.js.map": "/TRIX24/static/js/453.914ce0b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28b25fb0.css",
+    "static/css/main.97ec7887.css",
     "static/js/main.58a8dc28.js"
   ]
 }
