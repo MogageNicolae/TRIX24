@@ -47,3 +47,14 @@ R
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 G
 src/pages/Info/Info.css,d\c\dcbc1425a3f0b66b96680148054d4cb8ed5331e1
+F
+src/pages/Shop/Shop.js,0\3\038efedfb1b0cc9c1af760eaf03849916373b151
+:
+
+src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
+G
+src/pages/Shop/Shop.css,7\5\754c0b80a8e2a83aedc6e52d37768b0ade639ba3
+S
+#src/pages/Shop/ShopItem/ShopItem.js,b\c\bcc64274ab6a34297c4c8aeac1f3b5596a929314
+T
+$src/pages/Shop/ShopItem/ShopItem.css,6\2\627a4185e7450243c9e80c445674c4628d77dd7e

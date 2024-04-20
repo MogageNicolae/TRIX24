@@ -3,6 +3,7 @@ import NavigationBar from "../../navigationBar/NavigationBar";
 import homePageImg from "../../assets/images/home-page.webp";
 import trixLogo from "../../assets/images/TRIX-logo.webp";
 import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 
 
 export default function HomePage() {
@@ -37,7 +38,6 @@ export default function HomePage() {
                     <img src={trixLogo} alt={"trix logo"} className="trix-logo"/>
                     <div className="hp-buttons">
                         {/*<Link to="/registration" className="registration-button">Register here</Link>*/}
-                        {/*<Link to="/shop" className="registration-button">Shop coming soon</Link>*/}
                         <a
                             href="https://9ykk8z2z34n.typeform.com/to/D4CltRfD"
                             target="_blank"
@@ -45,13 +45,7 @@ export default function HomePage() {
                             className="hp-button">
                             Register here
                         </a>
-                        <a
-                            href="https://9ykk8z2z34n.typeform.com/to/sW4gEY0w"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="hp-button">
-                            Shop is here
-                        </a>
+                        <Link to="/shop" className="hp-button">Shop is here</Link>
                     </div>
                 </div>
             </div>

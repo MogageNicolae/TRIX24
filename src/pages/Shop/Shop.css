@@ -1,0 +1,36 @@
+.shop-page {
+    background-color: #3c0c07;
+    min-height: 100vh;
+}
+
+.shop-content {
+    padding: 10vmin 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    max-width: 85vw;
+    color: white;
+}
+
+.order-button {
+    margin-right: 0!important;
+    max-width: 50%;
+    margin-bottom: 5vmin;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 25px 0;
+}
+
+@media screen and (max-width: 900px) {
+    .hp-button:first-child {
+        max-width: 90vw;
+    }
+
+    .items-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}

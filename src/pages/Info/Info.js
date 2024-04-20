@@ -14,8 +14,8 @@ export default function Info() {
             <div className="center-wrapper">
                 <div className="content-wrapper">
                     <div>
-                        <h1 className="welcome-text">Welcome dear fighter to our lovely booklet of what to expect at
-                            TRIX Kung Fu.</h1>
+                        <h1 className="welcome-text subsection">Welcome dear fighter to our lovely booklet of what to you'll find
+                            at TRIX Kung Fu.</h1>
                         <p className="container">TRIX is the local conference of AIESEC in Cluj-Napoca, where you get to
                             experience what it means to be part of the Foaie Verde culture.
                             <br/><br/>

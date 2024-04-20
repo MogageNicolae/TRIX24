@@ -15,12 +15,13 @@ export default function Submenu({extendMenu, isSubmenuAvailable, active_page}) {
                 rel="noreferrer">
                 Registration
             </a></div>
-            <div className={active_page === "shop" ? "active" : ""}><a
-                href="https://9ykk8z2z34n.typeform.com/to/sW4gEY0w"
-                target="_blank"
-                rel="noreferrer">
-                Shop
-            </a></div>
+            {/*<div className={active_page === "shop" ? "active" : ""}><a*/}
+            {/*    href="https://9ykk8z2z34n.typeform.com/to/sW4gEY0w"*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noreferrer">*/}
+            {/*    Shop*/}
+            {/*</a></div>*/}
+            <div className={active_page === "shop" ? "active" : ""}><Link to="/shop">Shop</Link></div>
             <div className={active_page === "agenda" ? "active" : ""}><Link to="/agenda">Agenda</Link></div>
             <div className={active_page === "info" ? "active" : ""}><Link to="/info">Info</Link></div>
             <div className={active_page === "team" ? "active" : ""}><Link to="/team">Team</Link></div>
