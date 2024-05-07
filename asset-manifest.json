@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TRIX24/static/css/main.97ec7887.css",
-    "main.js": "/TRIX24/static/js/main.58a8dc28.js",
+    "main.js": "/TRIX24/static/js/main.40377309.js",
     "static/js/453.914ce0b6.chunk.js": "/TRIX24/static/js/453.914ce0b6.chunk.js",
     "static/media/meme1.png": "/TRIX24/static/media/meme1.aa91fa3622e4cd88660f.png",
     "static/media/gala1.jpg": "/TRIX24/static/media/gala1.d84a93b47409888ae11a.jpg",
@@ -42,7 +42,6 @@
     "static/media/Stickers FV.webp": "/TRIX24/static/media/Stickers FV.bb04929902481fd66d40.webp",
     "static/media/Ioana_Oltean.webp": "/TRIX24/static/media/Ioana_Oltean.ba913c71fb8a6f71ae69.webp",
     "static/media/Nicolae_Mogage.webp": "/TRIX24/static/media/Nicolae_Mogage.ded0fcc56fd55648260a.webp",
-    "static/media/Ada_Popescu.webp": "/TRIX24/static/media/Ada_Popescu.757e7084e70368bd690b.webp",
     "static/media/Diana_Farcas.webp": "/TRIX24/static/media/Diana_Farcas.b0a197d315500ad451e4.webp",
     "static/media/meme2.jpg": "/TRIX24/static/media/meme2.7ee2b527a878ee218452.jpg",
     "static/media/Hoodie FV.webp": "/TRIX24/static/media/Hoodie FV.f28fa4c94e2d906be20c.webp",
@@ -61,9 +60,8 @@
     "static/media/Package FV1.webp": "/TRIX24/static/media/Package FV1.9050ac6d3a2f0cbc3b58.webp",
     "static/media/20.webp": "/TRIX24/static/media/20.88c920d73eca38156883.webp",
     "static/media/Hoodie AIESEC Cj.webp": "/TRIX24/static/media/Hoodie AIESEC Cj.cdd9ea7555729bc78737.webp",
-    "static/media/Bra FV.webp": "/TRIX24/static/media/Bra FV.88050f9de679884a15af.webp",
     "static/media/Hoodie A.webp": "/TRIX24/static/media/Hoodie A.0a393962303972ac8c0a.webp",
-    "static/media/Bra A.webp": "/TRIX24/static/media/Bra A.88f6efc706eda8d8c803.webp",
+    "static/media/Ada_Popescu.webp": "/TRIX24/static/media/Ada_Popescu.90ae131a6bd953a57a8a.webp",
     "static/media/TRIX Poster.webp": "/TRIX24/static/media/TRIX Poster.27965a47f7848a1ad7e5.webp",
     "static/media/T-Shirt A1.webp": "/TRIX24/static/media/T-Shirt A1.b19accf35b8d7791da3e.webp",
     "static/media/Borseta FV.webp": "/TRIX24/static/media/Borseta FV.ba83eefb0d1262c51c05.webp",
@@ -80,22 +78,16 @@
     "static/media/TRIX Postcard.webp": "/TRIX24/static/media/TRIX Postcard.2a62c69463f172c747ac.webp",
     "static/media/T-Shirt A2.webp": "/TRIX24/static/media/T-Shirt A2.48729371521f36d020aa.webp",
     "static/media/T-Shirt FV.webp": "/TRIX24/static/media/T-Shirt FV.37d18958f815f2969365.webp",
-    "static/media/Mug A.webp": "/TRIX24/static/media/Mug A.867864f37871442d8fcc.webp",
     "static/media/Tote Bag A.webp": "/TRIX24/static/media/Tote Bag A.d512394a313f916298e9.webp",
     "static/media/Boxers Naughty.webp": "/TRIX24/static/media/Boxers Naughty.282af147e2622eeab6dc.webp",
-    "static/media/Bottle FV.webp": "/TRIX24/static/media/Bottle FV.9053db01b9b86ab5996b.webp",
     "static/media/T-Shirt Alumni.webp": "/TRIX24/static/media/T-Shirt Alumni.6caa8b405e3fe15a5596.webp",
     "static/media/home-page.webp": "/TRIX24/static/media/home-page.a1e6d4b637caed982be7.webp",
     "static/media/Bucket hat FV.webp": "/TRIX24/static/media/Bucket hat FV.4fc1b913a1b487f8d696.webp",
     "static/media/Boxers FV.webp": "/TRIX24/static/media/Boxers FV.0d5fff0228c0292c4955.webp",
-    "static/media/Bottle A.webp": "/TRIX24/static/media/Bottle A.e629bc5da0dc3da5199e.webp",
     "static/media/T-Shirt TRIX.webp": "/TRIX24/static/media/T-Shirt TRIX.6f44050d214ce7cf3cfe.webp",
     "static/media/Boxers A.webp": "/TRIX24/static/media/Boxers A.67efd640dbbd60fa9253.webp",
     "static/media/T-Shirt OC.webp": "/TRIX24/static/media/T-Shirt OC.21e6ff8fc488d6388c23.webp",
     "static/media/Bucket hat A.webp": "/TRIX24/static/media/Bucket hat A.f096b85f0ef219a5bcec.webp",
-    "static/media/Agenda FV.webp": "/TRIX24/static/media/Agenda FV.0e3b831ef8fcc5bc4f55.webp",
-    "static/media/Agenda A.webp": "/TRIX24/static/media/Agenda A.e552832d2fca97f85201.webp",
-    "static/media/Mug FV.webp": "/TRIX24/static/media/Mug FV.be6c7912cf0f6e6b6a77.webp",
     "static/media/Socks FV.webp": "/TRIX24/static/media/Socks FV.b7fda2a208e325921b32.webp",
     "static/media/Socks A.webp": "/TRIX24/static/media/Socks A.6abaa31787ade53923af.webp",
     "static/media/Bracelet OC.webp": "/TRIX24/static/media/Bracelet OC.9b6fe1356fc4de53f085.webp",
@@ -103,11 +95,11 @@
     "static/media/Background.webp": "/TRIX24/static/media/Background.86ea89e317ca22c75341.webp",
     "index.html": "/TRIX24/index.html",
     "main.97ec7887.css.map": "/TRIX24/static/css/main.97ec7887.css.map",
-    "main.58a8dc28.js.map": "/TRIX24/static/js/main.58a8dc28.js.map",
+    "main.40377309.js.map": "/TRIX24/static/js/main.40377309.js.map",
     "453.914ce0b6.chunk.js.map": "/TRIX24/static/js/453.914ce0b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97ec7887.css",
-    "static/js/main.58a8dc28.js"
+    "static/js/main.40377309.js"
   ]
 }
