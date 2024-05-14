@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TRIX24/static/css/main.97ec7887.css",
-    "main.js": "/TRIX24/static/js/main.40377309.js",
+    "main.js": "/TRIX24/static/js/main.b44a5dd4.js",
     "static/js/453.914ce0b6.chunk.js": "/TRIX24/static/js/453.914ce0b6.chunk.js",
     "static/media/meme1.png": "/TRIX24/static/media/meme1.aa91fa3622e4cd88660f.png",
     "static/media/gala1.jpg": "/TRIX24/static/media/gala1.d84a93b47409888ae11a.jpg",
@@ -95,11 +95,11 @@
     "static/media/Background.webp": "/TRIX24/static/media/Background.86ea89e317ca22c75341.webp",
     "index.html": "/TRIX24/index.html",
     "main.97ec7887.css.map": "/TRIX24/static/css/main.97ec7887.css.map",
-    "main.40377309.js.map": "/TRIX24/static/js/main.40377309.js.map",
+    "main.b44a5dd4.js.map": "/TRIX24/static/js/main.b44a5dd4.js.map",
     "453.914ce0b6.chunk.js.map": "/TRIX24/static/js/453.914ce0b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97ec7887.css",
-    "static/js/main.40377309.js"
+    "static/js/main.b44a5dd4.js"
   ]
 }
