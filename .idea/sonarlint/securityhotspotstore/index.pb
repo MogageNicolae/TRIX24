@@ -58,3 +58,5 @@ S
 #src/pages/Shop/ShopItem/ShopItem.js,b\c\bcc64274ab6a34297c4c8aeac1f3b5596a929314
 T
 $src/pages/Shop/ShopItem/ShopItem.css,6\2\627a4185e7450243c9e80c445674c4628d77dd7e
+<
+src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d

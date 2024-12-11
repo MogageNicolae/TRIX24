@@ -6,8 +6,6 @@ export default function Submenu({extendMenu, isSubmenuAvailable, active_page}) {
 
     return (
         <>
-            {/*<div><Link to="/registration">Registration</Link></div>*/}
-            {/*<div><Link to="/shop">Shop</Link></div>*/}
             {isSubmenuAvailable && <span className="close-submenu-button" onClick={extendMenu}>x</span>}
             <div className={active_page === "registration" ? "active" : ""}><a
                 href="https://9ykk8z2z34n.typeform.com/to/D4CltRfD"
@@ -15,14 +13,13 @@ export default function Submenu({extendMenu, isSubmenuAvailable, active_page}) {
                 rel="noreferrer">
                 Registration
             </a></div>
-            {/*<div className={active_page === "shop" ? "active" : ""}><a*/}
-            {/*    href="https://9ykk8z2z34n.typeform.com/to/sW4gEY0w"*/}
-            {/*    target="_blank"*/}
-            {/*    rel="noreferrer">*/}
-            {/*    Shop*/}
-            {/*</a></div>*/}
             <div className={active_page === "shop" ? "active" : ""}><Link to="/shop">Shop</Link></div>
-            <div className={active_page === "agenda" ? "active" : ""}><Link to="/agenda">Agenda</Link></div>
+            <div className={active_page === "agenda" ? "active" : ""}><a
+                href="https://docs.google.com/spreadsheets/d/1Qt-iQlBb4XyZ38WQVQ0v1Zuz6UItFqB9IbxBNu0c1_o/edit?usp=sharing"
+                target="_blank"
+                rel="noreferrer">
+                Agenda
+                </a></div>
             <div className={active_page === "info" ? "active" : ""}><Link to="/info">Info</Link></div>
             <div className={active_page === "team" ? "active" : ""}><Link to="/team">Team</Link></div>
             <div className={active_page === "history" ? "active" : ""}><Link to="/history">History</Link></div>
